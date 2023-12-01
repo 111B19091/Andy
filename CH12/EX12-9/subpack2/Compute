@@ -1,0 +1,21 @@
+package EX12_9.subpack2;
+import EX12_9.subpack1.*;
+public class Compute extends MyMath{
+    int ans;
+    public void add(int a, int b){
+        ans = a + b;
+    }
+    public void sub(int a, int b){
+        ans = a - b;
+    }
+    public void mul(int a, int b){
+        ans = a * b;
+    }
+    public void div(int a, int b){
+        ans = a / b;
+    }
+
+    public void show(){
+        System.out.println("ans=" + ans);
+    }
+}
