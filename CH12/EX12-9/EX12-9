@@ -1,0 +1,10 @@
+package EX12_9;
+import EX12_9.subpack1.*;
+import EX12_9.subpack2.*;
+public class EX12_9 {
+    public static void main(String[] args) {
+        Compute cmp = new Compute();
+        cmp.mul(3, 5);
+        cmp.show();
+    }
+}
